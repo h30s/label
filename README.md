@@ -1,6 +1,7 @@
 # Label AI - Smart Food & Product Scanner 🥗📸
 
 AI-Powered Food & Product Safety Scanner
+#AMUHACKS 4.0 #CSSAMU #AMU
 
 📌 **Features**  
 - 🖼️ Upload/Capture label images  
