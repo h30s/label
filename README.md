@@ -1,16 +1,13 @@
-# Label AI - Smart Food & Product Scanner
+# Label AI - Smart Food & Product Scanner 🥗📸
 
-Label AI is a lightweight, AI-powered web application designed to help users evaluate the health and safety of packaged food items or products. Users can either capture or upload an image of a product label, and the app scans ingredients to provide a health rating and allergy check.
+AI-Powered Food & Product Safety Scanner
 
-## Features
-
-- **Instant Scan**: Upload or capture an image of product labels
-- **Ingredient Analysis**: Uses OCR to read and process ingredient lists
-- **Health Rating**: AI model analyzes ingredients and rates products from 0-100
-- **Allergy Detection**: Identifies ingredients that may trigger selected allergies
-- **User-Friendly Interface**: Simple and intuitive design for quick analysis
-
-## Getting Started
+📌 **Features**  
+- 🖼️ Upload/Capture label images  
+- 🔍 **OCR Ingredient Extraction** (Tesseract.js)  
+- ⚠️ Custom **Allergy Alerts**  
+- 🌱 AI-Generated **Health Score** (0-100)  
+- 🎨 Clean UI (React + Material UI) 
 
 ### Prerequisites
 
@@ -47,21 +44,9 @@ Label AI is a lightweight, AI-powered web application designed to help users eva
 - **OCR Engine**: Tesseract.js
 - **AI Analysis**: OpenAI API (mock implementation for development)
 
-## Production Considerations
+[Screenshot (544)](https://github.com/user-attachments/assets/c94cc35e-0170-4b22-a1a0-03238007494d)
 
-For a production deployment:
+[Screenshot (543)](https://github.com/user-attachments/assets/50215ebd-5a8c-4c0e-951b-2e1e432b699b)
 
-- Move OpenAI API calls to a backend service to secure your API key
-- Implement proper error handling and retries for OCR and API calls
-- Add data storage for product recommendations and user preferences
-- Optimize image processing for better OCR results
-
-## License
-
-MIT
-
-## Acknowledgments
-
-- OpenAI for the language model API
-- Tesseract.js for the OCR functionality
-- Material UI for the component library
+##Youtube Video Link:
+https://youtu.be/45zNuR0b694?si=8rmXaWHV4jWV3_WI
